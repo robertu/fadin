@@ -1,0 +1,189 @@
+[
+{
+    "model": "ivo.company",
+    "pk": 1,
+    "fields": {
+        "name": "Piekarnia Pyszonka Sp. z o.o.",
+        "address": "ul. Polna 1",
+        "taxid": "09809"
+    }
+},
+{
+    "model": "ivo.company",
+    "pk": 2,
+    "fields": {
+        "name": "Sklep III",
+        "address": "ul. Radomska 12\r\n22-000 Kołbuck",
+        "taxid": "1234567890"
+    }
+},
+{
+    "model": "ivo.customer",
+    "pk": 1,
+    "fields": {
+        "name": "Kamaz S.K.A.",
+        "address": "ul. Piękna 12\r\n22-110 Kluszewo",
+        "taxid": "234"
+    }
+},
+{
+    "model": "ivo.invoice",
+    "pk": 1,
+    "fields": {
+        "number": "2023/11/0001",
+        "due_date": "2023-12-10",
+        "seller": 1,
+        "buyer": 1,
+        "created_at": "2023-11-26T15:12:42.519Z",
+        "created_by": 1,
+        "amount": "5.78"
+    }
+},
+{
+    "model": "ivo.item",
+    "pk": 1,
+    "fields": {
+        "name": "Ogórek",
+        "price": "2.89"
+    }
+},
+{
+    "model": "ivo.invoiceitem",
+    "pk": 1,
+    "fields": {
+        "invoice": 1,
+        "item": 1,
+        "quantity": 2,
+        "price": "2.89",
+        "amount": "5.78"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "app",
+        "model": "company"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "app",
+        "model": "customer"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "app",
+        "model": "invoice"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "app",
+        "model": "item"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "app",
+        "model": "invoiceitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "ivo",
+        "model": "invoice"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "ivo",
+        "model": "customer"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "ivo",
+        "model": "invoiceitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "ivo",
+        "model": "item"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "ivo",
+        "model": "company"
+    }
+}
+]
